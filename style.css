@@ -1,5 +1,6 @@
 .tab ul {
   border-radius: 25px;
+  border: solid rgb(104, 104, 104);
   list-style-type: none;
   margin: 1em;
   margin-top: 6em;
@@ -35,14 +36,16 @@
 
 a:link {
   text-decoration: none;
+  color: black;
 }
 
 a:visited {
   text-decoration: none;
+  color: black;
 }
 
 .center-header {
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-style: normal;
   font-weight: bold;
@@ -72,6 +75,7 @@ header {
 }
 
 .social-icon {
+  color: black;
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
   text-align: center;
@@ -90,16 +94,6 @@ h1 {
 
 h2 {
   display: block;
-  font-size: 2em;
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-}
-
-h3 {
-  display: block;
   font-size: 1.5em;
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
@@ -108,18 +102,20 @@ h3 {
   font-weight: bold;
 }
 
-body {
-  font-family: Monospace;
+h3 {
+  text-align: center;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
-.bg-image {
-  background-image: url("./images/BG_Campus.jpg");
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+  background-color: rgb(219, 219, 219);
+  font-family: Monospace;
 }
 
 .text-comment {
@@ -130,4 +126,13 @@ body {
   margin-inline-end: 0px;
   font-style: italic;
   font-size: 1.2em;
+}
+
+.image-profile {
+  border-radius: 50%;
+  border-color: #ff6c6c;
+  border: solid rgb(104, 104, 104);
+  margin-right: auto;
+  display: block;
+  margin-left: auto;
 }
