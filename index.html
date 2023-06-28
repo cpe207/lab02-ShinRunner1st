@@ -21,7 +21,7 @@
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand">My Portfolio</a>
+          <a class="navbar-brand fw-bold">My Portfolio</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -39,6 +39,7 @@
                 >Home</a
               >
               <a class="nav-link" href="exp.html">Experience</a>
+              <a class="nav-link" href="gallery.html">Gallery</a>
               <a class="nav-link" href="contact.html">Contact</a>
             </div>
           </div>
@@ -47,24 +48,68 @@
     </div>
 
     <!-- Profile flex -->
-    <div class="d-flex justify-content-center gap-3">
+    <div class="d-flex justify-content-center align-items-center mx-auto my-3 py-3 gap-3 rounded-3 shadow" style="max-width: 700px; background-color: white;">
       <div>
-        <img class="rounded-circle" width="300" src="./images/profile.jpg" />
+        <img class="rounded-circle shadow" width="200"  src="./images/profile.jpg" />
+      </div>
+
+      <div class="d-none d-sm-block">
+        <div class="display-6 mb-3 fw-bold">Norrawich Sombutnan</div>
+        <div class="text-muted">
+          Hi, my name is Norrawich Sombutnan.
+        </div>
       </div>
     </div>
+    </div>
 
-    <!-- TODO Element flex -->
-    <div class="container">
-      <h3>INTRODUCE</h3>
-      <p class="text-comment">Hello my name is Norrawich Sombutnan</p>
-    </div>
-    <div class="container">
-      <h3>SKILL</h3>
-      <p class="text-comment">Nothing special but I'm fast learning</p>
-    </div>
+    <!-- Element flex -->
+    <p class="text-center fs-2 fst-italic fw-bold">| Skills |</p>
+    <div class="mx-auto px-3" style="max-width: 700px;">
+      <div class="d-flex border rounded-3 shadow mb-3" style="background-color: white;">
+        <div class="rounded-3">
+          <img
+            src="./images/s1.png"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="rounded-3 d-none d-sm-block shadow"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-bold fs-5">Programing</p>
+          <span class="text-muted"
+            >I can coding in C++ C# and phython. recently i try to using this skills for hacking a game though</span
+          >
+        </div>
+      </div>
+      </div>
+
+      <div class="mx-auto px-3" style="max-width: 700px;">
+        <div class="d-flex border rounded-3 shadow mb-3" style="background-color: white;">
+          <div class="p-4">
+            <p class="fw-bold fs-5">Sound Creator</p>
+            <span class="text-muted"
+              >I did create song for a whlie, i aslo have soundcloud account so you can visit my </span
+            ><a href="https://soundcloud.com/shinrunner1st" target="_blank"><i class="fa-brands fa-soundcloud" style="font-size: 20px;"></i></a>
+          </div>
+          <div class="rounded-3">
+            <img
+              src="./images/s2.png"
+              width="150px"
+              height="150px"
+              style="object-fit: cover"
+              class="rounded-3 d-none d-sm-block shadow"
+            />
+          </div>
+        </div>
+        </div>
   </body>
 
   <!-- Script -->
+  <script
+    src="https://kit.fontawesome.com/67565e05a2.js"
+    crossorigin="anonymous"
+  ></script>
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
